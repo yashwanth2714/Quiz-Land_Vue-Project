@@ -61,10 +61,14 @@ export default {
 
     .correct {
         background-color: lightgreen;
+        color:white;
+        font-weight: bold;
     }
 
     .incorrect {
         background-color: tomato;
+        color:white;
+        font-weight: bold;
     }
 </style>
 
