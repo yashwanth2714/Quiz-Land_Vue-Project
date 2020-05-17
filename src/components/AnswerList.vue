@@ -61,7 +61,7 @@ export default {
 
     .correct {
         background-color: lightgreen;
-        color:white;
+        color:black;
         font-weight: bold;
     }
 
