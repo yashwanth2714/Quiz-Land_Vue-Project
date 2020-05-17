@@ -52,10 +52,11 @@ export default {
     .list-group {
         margin-bottom: 20px;
     }
-
-    .list-group-item:hover {
-        background-color: #ccc;
-        cursor: pointer;
+    @media (hover: hover) {
+        .list-group-item:hover {
+            background-color: #ccc;
+            cursor: pointer;
+        }
     }
 
     .correct {
