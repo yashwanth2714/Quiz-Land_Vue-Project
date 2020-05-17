@@ -1,4 +1,4 @@
-# quiz
+# Quiz Land - First VueJs Project
 
 ## Project setup
 ```
