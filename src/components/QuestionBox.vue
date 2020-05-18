@@ -4,7 +4,7 @@
            <!-- <template v-slot:header>Header</template>-->
 
             <template v-slot:lead>
-            {{quesAns.question}}
+                <p v-html="quesAns.question"></p>
             </template>
 
             <hr class="my-4">

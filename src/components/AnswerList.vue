@@ -2,8 +2,7 @@
     <div>
         <b-list-group>
             <b-list-group-item button :disabled="checkBool(selectedIndex)" v-for="(answer,index) in answersArr" :key="index" @click="selectIndex(index)"
-                :class = "[selectedIndex === index ? index == correctIndex ? 'correct' : 'incorrect' : index == correctIndex ? 'correct' : '']">
-                {{answer}}
+                :class = "[selectedIndex === index ? index == correctIndex ? 'correct' : 'incorrect' : index == correctIndex ? 'correct' : '']" v-html="answer">
             </b-list-group-item>
         </b-list-group>
     </div>
