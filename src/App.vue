@@ -6,7 +6,7 @@
         <b-col sm="12" >
           <QuestionBox v-if="quesAnsArr.length && index < quesAnsArr.length" :quesAns = "quesAnsArr[index]" :next="next" @inc-value="increment" @inc-attempted="incrAttempted"/>
           <!-- We are not redendering question box untill we get data from API. So, here we are checking the array length
-          If it's length is > 0 it wiil return true and questionvox will be rendered otherwise not rendered without the data  -->
+          If it's length is > 0 it will return true and questionbox will be rendered otherwise no -->
         </b-col>
         <b-col sm="12" >
           <Reset v-if=" quesAnsArr.length && index === quesAnsArr.length" :callInit ="init" :numOfCorrect = "numOfCorrect" :numOfTotal = "numOfTotal" :attempted = "numOfAttempted"/>

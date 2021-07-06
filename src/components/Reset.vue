@@ -1,6 +1,6 @@
 <template>
     <div>
-         <b-jumbotron>
+        <b-jumbotron>
             <p> Total Questions: {{numOfTotal}} </p>
             <p> Attempted: {{attempted}} </p>
             <p> Correct Answers: {{numOfCorrect}} </p>
@@ -41,4 +41,3 @@ export default {
         margin-top: 20px;   
     }
 </style>
-

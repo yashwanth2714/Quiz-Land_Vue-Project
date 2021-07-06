@@ -22,7 +22,7 @@ export default {
         }
     },
     computed: {
-       
+    
     },
     methods: {
         selectIndex(index) {
@@ -33,7 +33,7 @@ export default {
                 this.$emit('inc-value');
             }
         },
-         checkBool(selIndex) {
+        checkBool(selIndex) {
             return selIndex || selIndex === 0? true : false;
         }
     },
@@ -70,4 +70,3 @@ export default {
         font-weight: bold;
     }
 </style>
-

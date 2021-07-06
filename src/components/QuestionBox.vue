@@ -1,7 +1,7 @@
 <template>
     <div class="question-box-container">
-         <b-jumbotron>
-           <!-- <template v-slot:header>Header</template>-->
+        <b-jumbotron>
+            <!-- <template v-slot:header>Header</template>-->
 
             <template v-slot:lead>
                 <p v-html="quesAns.question"></p>
@@ -36,8 +36,8 @@ export default {
     },
     /*computed: {
         answers() {
-             let answers = [...this.quesAns.incorrect_answers,this.quesAns.correct_answer];
-             return answers;
+                let answers = [...this.quesAns.incorrect_answers,this.quesAns.correct_answer];
+                return answers;
         }
     },*/
     methods: {
@@ -51,13 +51,9 @@ export default {
         quesAns: {
             immediate: true,
             handler() {
-                 this.shuffleAnswers()
+                this.shuffleAnswers()
             }
         }
-        /*What immediate does is instead of only running this watch function when quesAns updates, it also runs it when quesAns 
-            passed as props and every subsequent time when it updates.
-        */
-
         // quesAns() {
         //     this.shuffleAnswers()
         // }

@@ -3,11 +3,11 @@
         <b-nav tabs fill class="bg">
             <b-nav-item disabled><h1><b>Quiz Land</b></h1></b-nav-item>
         </b-nav>
-         <b-nav tabs fill>
+        <b-nav tabs fill>
             <b-nav-item disabled v-show="!quizOver" :class="{'total': !quizOver}"><b>Total Questions: {{numOfTotal}}</b></b-nav-item>
             <b-nav-item disabled v-show="!quizOver" :class="{'attempted': !quizOver}"><b>Attempted : {{attempted}}</b></b-nav-item>
             <b-nav-item disabled v-show="!quizOver" :class="{'correct': !quizOver}"><b>Correct: {{numOfCorrect}}</b></b-nav-item>
-         </b-nav>
+        </b-nav>
     </div>
 </template>
 
