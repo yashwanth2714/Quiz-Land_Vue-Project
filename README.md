@@ -15,9 +15,6 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-
+[Trivia API](https://opentdb.com/api_config.php)
+<br>
+Check the site here [Quiz Land](https://yash-quizland.netlify.app/)
